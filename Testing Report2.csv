@@ -1,0 +1,11 @@
+ID,Title,Actions,Expected Outcome,Actual Outcome,Status,Notes
+CHECK NO 1,Verify Product Page Display,Open the Products Page > Confirm Products Visibility,Products should appear correctly,Products displayed correctly,Matched,No issues detected
+CHECK NO 2,Test API Error Response,Fetching through wrong Gorq Query > Refresh the page,An error message should be visible,Error message displayed,Matched,Handled well
+CHECK NO 3,Validate Cart Operations,Add items to the cart > Navigate to Cart,Cart should show added products,Cart displays added products,Successful,Operations okay
+CHECKNO4,Checking delete option,Remove items from the cart,items should be rmoved on time,A messageto show removed successfully,Done,performed well
+CHECKNO5,Testing Checkout Page,Chekout page visibilty>customer data,All items added should appear with detail,All data shown correctly>collected information,Successful,Nice working
+CHECK NO 6,Check Mobile View Responsiveness,Use Device Toolbar > Select Mobile View,Page should adjust content for mobile,Page content adjusted as per mobile view,Successful,Works well on mobile
+CHECK NO 7,Test Search Results,Search for non-listed items,"""No products found"" should be shown",No product results dropdown shown,Issue,Missing error message
+CHECK NO 8,Verify Dynamic Product Details,Open any product page from the list,Product details page should open,Product detail page opened correctly,Successful,Page loaded fine
+CHECK NO 9,Cross-browser Functionality,"Open the website on browsers like Chrome, Edge, etc.",The website should be functional on all browsers,Website displayed correctly on all browsers,Successful,Consistent behavior
+CHECKNO10,Login and Dashboard ,AdminDashboard connectivity>login>,login page should redirect to processing page,Each customer order dispalyed with status,working,needs more betterment
